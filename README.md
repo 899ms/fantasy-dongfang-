@@ -1,12 +1,43 @@
-东方极简海报
+# 东方文化编辑海报
 
-抖音：梵想美学
+**FANTASY / 梵想美学 · 文化海报与编辑设计**
 
-一个面向 Codex 的中文视觉创作 skill，用于生成东方文化、幻想文字、文字创意极简、出版物封面和编辑式海报的创作流程。
+用真实文化物证、标题动作与留白建立东方编辑海报，支持文字创意与 A/B/C 成组比较。
 
-它不是“新中式海报”一键提示词，而是一套偏审美判断和构图方法的工作流：先分析主题与材料证据，再选择文字机制、留白比例、版式系统和图像生成方式，尽量避免红章、泼墨、伪古风、小字噪音和通用 AI 海报模板。
+**[快速开始](#start)** · **[下载与安装](#install)** · **[完整规则](SKILL.md)** · **[全部视觉 Skills](https://github.com/dacnay816y62-hub/cinema-dna-21x9x3/blob/main/docs/FANTASY-COLLECTION.md)**
 
-v2 版本加入了 Image 2 实测后的规则：标题先精炼、文化靠真实物证承载、A/B/C 三种方向成组评测，并修正了 Mode B 的定义，默认生成完整海报版面，而不是先出空底图再贴字。
+![东方文化编辑海报 · 仓库视觉示例](v2-tests/selected-triptychs/selected-overview.jpg)
+
+<a id="start"></a>
+
+## 一分钟开始
+
+| 你提供 | 这套 Skill 组织的交付 |
+| --- | --- |
+| 主题、短标题、文化材料或关键词组 | 完整海报版面；可按 A/B/C 三方向比较 |
+
+```text
+用 $oriental-editorial-poster 做一张「残荷」主题的 3:4 编辑海报。以一处真实材料细节承载主题，让短标题与图像发生关系，保留有作用的留白。
+```
+
+**生成说明：** Skill 组织设计判断、提示词与执行流程；图片由当前环境中可用的图像工具生成或编辑。示例用于理解视觉方向，具体来源以本仓库记录为准，不能据此保证每次得到相同效果。
+
+<a id="install"></a>
+
+## 下载与安装
+
+**[下载当前分支 ZIP](https://github.com/dacnay816y62-hub/fantasy-dongfang-jianyuehaibao/archive/refs/heads/main.zip)** · **[阅读 Skill 规则](SKILL.md)**
+
+1. 下载并解压仓库。
+2. 将仓库根目录（包含 `SKILL.md`）放入当前助手支持的技能目录。
+3. 安装文件夹命名为 **`oriental-editorial-poster`**，确保入口是 `oriental-editorial-poster/SKILL.md`。
+4. 在支持技能调用的会话中使用 **`$oriental-editorial-poster`**。如果列表未刷新，新开一个任务。
+
+Codex CLI / IDE 的用户级目录是 `~/.agents/skills/`，项目级目录是 `.agents/skills/`；Windows 用户目录可写为 `%USERPROFILE%\.agents\skills\`。以 [OpenAI 官方安装说明](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills) 为准。ChatGPT 与其他宿主请按各自的技能加载方式使用。
+
+仓库名与调用名可能不同，以上以 `SKILL.md` 中的名称为准。安装不包含图像服务、账户或生成额度；实际出图取决于你使用的环境。
+
+---
 
 ## 适合做什么
 
@@ -27,7 +58,7 @@ v2 版本加入了 Image 2 实测后的规则：标题先精炼、文化靠真�
 
 ## v2 测试资产
 
-从原私人测试仓库转移进来的完整 Image 2 测试素材放在 [`v2-tests/`](v2-tests/)。
+Image 2 的公开测试素材放在 [`v2-tests/`](v2-tests/)。
 
 精选 A/B/C 三联总览：
 
@@ -59,26 +90,6 @@ oriental-editorial-poster/
 └─ references/
    ├─ editorial-systems.md
    └─ fantasy-text-minimal.md
-```
-
-## 安装
-
-把整个文件夹复制到 Codex skills 目录：
-
-```text
-<CODEX_HOME>/skills/oriental-editorial-poster
-```
-
-如果你不知道 `CODEX_HOME` 在哪里，常见 Windows 位置可以使用环境变量表达：
-
-```text
-%USERPROFILE%\.codex\skills\oriental-editorial-poster
-```
-
-复制后新开一个 Codex 任务，就可以直接调用：
-
-```text
-$oriental-editorial-poster
 ```
 
 ## 使用示例
@@ -139,3 +150,9 @@ $oriental-editorial-poster
 - 本仓库不包含 API key、账号信息或图像生成额度。
 - 参考图用于学习视觉语法，不代表可商用授权。
 - `v2-tests/` 是公开测试资产和 prompt 记录，用于说明 v2 的审美收敛过程；正式项目素材仍建议单独保存。
+
+## FANTASY / 梵想美学
+
+**让想象先被看见。** 将视觉判断与创作流程整理成可以继续使用的方法。
+
+**[浏览全部视觉 Skills](https://github.com/dacnay816y62-hub/cinema-dna-21x9x3/blob/main/docs/FANTASY-COLLECTION.md)** · [Regional Culture Poster](https://github.com/dacnay816y62-hub/regional-culture-poster) · [FANTASY Minimal Magazine](https://github.com/dacnay816y62-hub/FANTASY-Minimal-Magazine)
