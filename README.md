@@ -4,7 +4,7 @@
 
 用真实文化物证、标题动作与留白建立东方编辑海报，支持文字创意与 A/B/C 成组比较。
 
-**[快速开始](#start)** · **[下载与安装](#install)** · **[完整规则](SKILL.md)** · **[全部视觉 Skills](https://github.com/dacnay816y62-hub/cinema-dna-21x9x3/blob/main/docs/FANTASY-COLLECTION.md)**
+**[快速开始](#start)** · **[下载与安装](#install)** · **[完整规则](SKILL.md)** · **[全部视觉 Skills](https://github.com/dacnay816y62-hub?tab=repositories)**
 
 ![东方文化编辑海报 · 仓库视觉示例](v2-tests/selected-triptychs/selected-overview.jpg)
 
@@ -155,4 +155,4 @@ $oriental-editorial-poster
 
 **让想象先被看见。** 将视觉判断与创作流程整理成可以继续使用的方法。
 
-**[浏览全部视觉 Skills](https://github.com/dacnay816y62-hub/cinema-dna-21x9x3/blob/main/docs/FANTASY-COLLECTION.md)** · [Regional Culture Poster](https://github.com/dacnay816y62-hub/regional-culture-poster) · [FANTASY Minimal Magazine](https://github.com/dacnay816y62-hub/FANTASY-Minimal-Magazine)
+**[浏览全部视觉 Skills](https://github.com/dacnay816y62-hub?tab=repositories)** · [Regional Culture Poster](https://github.com/dacnay816y62-hub/regional-culture-poster) · [FANTASY Minimal Magazine](https://github.com/dacnay816y62-hub/FANTASY-Minimal-Magazine)
